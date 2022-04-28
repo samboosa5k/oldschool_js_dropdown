@@ -22,7 +22,12 @@ const callbackFunction = (value, accountID) => {
  * @param {callbackFunction} callback - The callback function to be called when the <option> is selected
  * @param {string} parentID - the id of the <selector> wrapper
  * @param {string} accountID - the id of the account to be updated
- * @returns 
+ * 
+ * 
+ * @todo - change the optionList function to accept an object instead of separate arguments
+ * 
+ * 
+ * @returns {void[]} = it just attaches creates the dropdown
  */
 const optionList = (callback, parentID, accountID) =>
   fetchResponse.map((sqlObject, i) => {

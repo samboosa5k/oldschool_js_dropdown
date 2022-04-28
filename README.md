@@ -1,6 +1,22 @@
+
+# INSTRUCTIONS
+
+
+>Just open the `index.html` and start clicking the dropdown
+
+>The `optionList` is started when the window loads
+
+> There's some additional code there
+<br>
+
+---
+
+## CONTENTS OF `dropdownScript.js`
+
+---
 ### THIS IS WHATEVER YOUR ACCOUNT ID IS
 
-```
+```lang-js
 const ACCOUNT_ID = "abc123";
 ```
 

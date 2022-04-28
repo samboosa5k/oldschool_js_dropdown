@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="dropDownScript.js" type="application/javascript"></script>
+  </head>
+  <body
+    id="root"
+    class="min-w-screen min-h-screen container relative flex p-32 content-center justify-center"
+  >
+    <div
+      id="form-container"
+      class="container relative flex container m-auto p-32 bg-blue-500 rounded-2xl"
+    >
+      <p class="text-white font-bold text-xl">const ACCOUNT_ID = "abc123";</p>
+      <select id="parent"></select>
+    </div>
+    <script>
+      
+
+      // THIS IS THE INITIALIZATION OF THE FUNCTION
+      window.addEventListener("load", () => {
+        optionList(callbackFunction, "#parent", ACCOUNT_ID);
+      });
+    </script>
+  </body>
+</html>
